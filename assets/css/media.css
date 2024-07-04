@@ -101,6 +101,21 @@
     .brand-rating {
         margin: 5px 0;
     }
+    .about-wrap .row{
+        flex-direction: column;
+    }
+    .about-wrap .col-md-6{
+        width: 100%;
+    }
+    .about-img {
+        height: 350px;
+    }
+    .secWrap .row{
+        flex-direction: column-reverse;
+    }
+    .contact-main .col-md-8 {
+        width: 100%;
+    }
 }
 @media(max-width:767px){
     .site-heading {
@@ -120,6 +135,9 @@
     }
     .accordion-button {
         padding: 12px 15px;
+    }
+    .about-img {
+        height: 300px;
     }
 }
 @media(max-width:575px){
@@ -157,6 +175,12 @@
     }
     .cidade-main-text ul {
         padding-left: 30px;
+    }
+    .about-img {
+        height: 250px;
+    }
+    .about-text {
+        padding: 15px;
     }
 }
 @media(max-width:374px){

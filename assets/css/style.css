@@ -406,8 +406,50 @@ overflow: hidden;
 
 
 /* newsletter section css end */
+/* about page css start */
+.about-img{
+    height: 100%;
+    width: 100%;
 
+}
+.about-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.about-text h3 {
+    font-size: 1.875rem;
+    margin-bottom: 10px;
+}
+.about-text p{
+    font-size: 1rem;
 
+}
+.about-text {
+    padding: 25px;
+}
+
+.about-wrap {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+}
+/* about page css end */
+/* contact page css start */
+.contact-main .row{
+ justify-content: center;
+}
+.contact-text h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.contact-text p{
+    font-size: 1rem;
+}
+.contact-text{
+    margin: 15px 0;
+}
+/* contact page css end */
 
 /* faq css start */
 .accordion-button::after {
